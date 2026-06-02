@@ -45,4 +45,27 @@
 -- $$;
 
 -- teste
-CALL sp_aprovados_pais_phd;
+-- CALL sp_aprovados_pais_phd;
+
+-- 3 Resultado em função dos estudos - Escreva um stored procedure que disponibiliza, utilizando um parâmetro em modo OUT, o número de alunos aprovados dentre aqueles que estudam sozinhos.
+
+-- CREATE OR REPLACE PROCEDURE sp_aprovados_estudam_sozinhos(
+	
+--     OUT qtd_aprovados INTEGER
+
+-- )
+
+-- LANGUAGE plpgsql
+-- AS $$
+-- BEGIN
+
+--     SELECT COUNT(*)
+--     INTO qtd_aprovados
+--     FROM student_prediction
+--     WHERE study_hrs = 3
+--       AND grade >= 1;
+
+-- END;
+-- $$;
+
+CALL sp_aprovados_estudam_sozinhos;
