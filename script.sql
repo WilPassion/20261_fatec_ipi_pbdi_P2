@@ -68,4 +68,32 @@
 -- END;
 -- $$;
 
-CALL sp_aprovados_estudam_sozinhos;
+-- CALL sp_aprovados_estudam_sozinhos;
+
+-- 4 Salário versus estudos - Dentre os alunos que têm salário maior que 410, quantos costumam se preparar com
+-- frequência (regularmente) para os exames? Escreva um stored procedure que exibe esse valor.
+
+-- CREATE OR REPLACE PROCEDURE sp_salario_versus_estudos()
+-- LANGUAGE plpgsql
+-- AS $$
+-- DECLARE
+
+--     quantidade INTEGER;
+	
+-- BEGIN
+
+--     SELECT COUNT(*)
+--     INTO quantidade
+--     FROM student_prediction
+--     WHERE salary > 410
+--       AND prep_exam = 2;
+
+--     RAISE NOTICE
+--         'Alunos com salário maior que 410 e que se preparam regularmente para os exames: %',
+--         quantidade;
+
+-- END;
+-- $$;
+
+-- teste
+CALL sp_salario_versus_estudos;
