@@ -1,4 +1,4 @@
-# 📊 P1 - Programação em Banco de Dados I
+# 📊 P2 - Programação em Banco de Dados I
  
 Este repositório foi criado com o objetivo de armazenar as atividades desenvolvidas para a segunda avaliação da disciplina.
  
